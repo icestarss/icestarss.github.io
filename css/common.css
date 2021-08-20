@@ -1,0 +1,309 @@
+/*头部开始*/
+	.w{
+		width: 1200px;
+		margin: 0 auto;
+	}
+	.shartcut{
+		position: relative;
+		height: 80px;
+		width: 100%; 
+		background-color: #feb801;
+	}
+	@keyframes move{
+		0%{
+			transform: translate(0px,0);
+		}
+		100%{
+			transform: translate(80px,0);
+		}
+
+	}
+	.shartcut .jiantou{
+		position: absolute;
+		top: 0px; 
+		margin-left: 150px;
+		height: 80px;
+		width: 100px;
+		background-image: url(../img/image/jiantou.PNG);
+		animation: move 1.8s infinite forwards;
+	}
+	.fl{
+		float: left;
+	}
+	.fr{
+		float: right;
+	}
+	.logo{
+		position: absolute;
+		top:8px;
+		height: 60px;
+		width: 200px;
+	}
+	.logo a{
+		display: block;
+		height: 60px;
+		background: url(../img/image/logo1.jpg) no-repeat;
+		background-size: 150px;
+		font-size: 0;
+	}
+	.shartcut .fr ul a li{
+		display: inline-block;
+		float: left;
+		margin: 14px 10px 0;
+		height:40px;
+		width: 80px; 
+		line-height:40px; 
+		padding: 7px;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.shartcut .fr ul a li:hover{
+		background-color: #fbc538;
+	}	
+/*头部结束*/
+/*中间开始*/
+	/*上面搜索框*/
+		.zhongjian{
+		}
+		.zhongjian .color{
+			height: 35px;
+			background-color: #777773;
+		}
+
+		.zhongjian .color .w  a p{
+			position: relative;
+			float: left;
+			display: inline-block;
+			height: 35px;
+			padding: 7px 34px; 
+			box-sizing:border-box;
+			color: #2d2d2d;
+		}
+		
+		.zhongjian .color .w  a p:hover{
+			color: #2d2d2d;
+			background-color: #90908f;
+		}
+
+		.zhongjian .w .search{
+			float: right;
+			height: 24px;
+			width: 350px;
+			margin-top: 4px; 
+			border-bottom:1px solid #111419;
+		}
+		.zhongjian .w .search input{
+			height: 24px;
+			width: 250px;
+			background: none;
+			border: none;
+			outline: none;
+		}
+		.zhongjian .w .search button{
+			background: none;
+			font-size: 15px;
+			border: none;
+			outline: none;
+		}
+	/*图片部分*/
+		.bofang .w{
+			position: relative;
+
+		}
+		.bofang  .w .focus .tu .tupian li img{
+			width: 1200px;
+		}
+		.bofang .w .hezi{
+			position: absolute;
+			height: 15px;
+			border-radius: 10px;
+			margin-left: 550px;
+			margin-top: -16px;
+		}
+		.bofang .w .jiantouleft{
+			display: none;
+			position: absolute;
+			height: 560px;
+			width: 180px;
+			font-size: 165px;
+			color:rgba(240, 240, 240 ,0.6);
+			background-color:rgba(119, 119, 115,0.2);
+			text-align:center; 
+			line-height:560px;
+			z-index: 2;
+		}
+		.bofang .w .jiantouright{
+			display: none;
+			position: absolute;
+			margin-left: 1020px;
+			height: 560px;
+			width: 180px;
+			font-size: 165px;
+			color:rgba(240, 240, 240 ,0.6);
+			background-color:rgba(119, 119, 115,0.2);
+			text-align:center; 
+			line-height:560px;
+			z-index: 2;
+		}
+		.bofang .w .hezi .yuanquan .current{
+			background-color: #FFF;
+		}
+		.bofang .w .tu{
+			position: relative;
+			height: 560px;
+			overflow: hidden;
+		}
+		.bofang .w .tupian{
+			width: 6000px;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.bofang .w .tupian li{
+			float: left;
+		}
+		.bofang .w .hezi ol li{
+			float: left;
+			display: inline-block;
+			border-radius: 10px;
+			height: 10px;
+			width: 10px;
+			margin-top: 3px;
+			margin-left:  6px;
+			margin-right: 9px; 
+			background-color: #b1984f;
+			}
+			
+	/*商品*/
+		.shangpin{
+			margin: 0 auto;
+			width: 1200px
+		}
+		.shangpin .w{
+			
+		}
+		.shangpin .w .left{
+			display: inline-block;
+			background-color: pink;
+		}
+		.shangpin .w .left img{
+			width: 1200px;
+		}
+	/*货架*/
+		.shangpin .w .zhanshi1{
+			padding:10px 0;
+		}
+		.shangpin .w .zhanshi1 dl{
+			display: inline-block;
+			height: 240px;
+			margin: 0 28px;
+
+		}
+		.shangpin .w .zhanshi1 dl .wenzi{
+			display: inline-block;
+			height: 60px;
+			width: 240px;
+			padding-top: 6px;
+		}
+		.shangpin .w .zhanshi1 dl .wenzi a{
+			font-size: 10px;
+		}
+		.shangpin .w .zhanshi1 dl .wenzi a:hover{
+			text-decoration: underline;
+		}
+		.shangpin .w .zhanshi1 dl .jiage{
+			font-size: 12px;
+			font-weight: 700;
+		}
+		.shangpin .w .zhanshi1 dl .jiage .money1{
+			color: #99a9cb;
+		}
+		.shangpin .w .zhanshi1 dl .jiage .money2{
+			color: #ff4400;
+		}
+		
+			
+		
+
+/*中间结束*/
+/*底部开始*/
+	.slogen{
+		background-color: #eaeaea;
+		height: 380px;
+	}
+	.slogen .w .top{
+		height: 102px;
+		border-bottom:1px solid #cecdcd;
+
+	}
+
+	.slogen .w .top ul li{
+		float: left;
+		width: 300px;
+		margin-top: 20px;
+		padding-left: 43px;
+		box-sizing: border-box;
+		line-height: 56px;
+	}
+
+	.slogen .w .top ul li i{
+		display: inline-block;
+		height: 42px;
+		width: 36px;
+		background: url(../img/image/ico_service.PNG) no-repeat;
+		margin: 10px;
+		font-size: 0;
+		
+	}
+	.slogen .w .top ul li{
+		font-weight: bold;
+		font-size: 22PX;
+		cursor: default;
+		
+	}
+	.slogen .w .buttom{
+	
+		height: 220px;
+		width: 1200px;
+		margin-top: 20px;
+		padding-left: 50PX;  
+		border-bottom:1px solid #cecdcd;
+
+	}
+	.slogen .w .buttom dl{
+		float: left;
+	}
+	.slogen .w .buttom dt{
+		display: block;
+		float: left;
+		width: 206px;
+		height:35px;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.slogen .w .buttom dt dd{
+		display: inline-block;
+		float: left;
+		width: 206px;
+		height:35px;
+	}
+	
+
+	footer{
+		background-color: #393738;
+		height: 240px;
+	}
+	footer p{
+		padding-top: 10px; 
+		color: #fff;
+		line-height: 30px;
+	}
+	footer p a{
+		color: #fff;
+	}
+	footer p a:hover{
+		cursor: pointer;
+		color: #fff;
+		text-decoration: underline;
+	}
+/*底部结束
