@@ -6,6 +6,11 @@ window.addEventListener('load',function() {
 	var focusWidth = focus.offsetWidth;
 	var num = 0;
 	var circle = 0;
+	var lis =document.querySelectorAll("i");
+				for(var i = 0; i < lis.length; i++){
+					var index = i*43
+					lis[i].style.backgroundPosition = '0 -'+index+'px';
+				}
 	focus.addEventListener('mouseenter', function(){
 		jiantouleft.style.display = 'block';
 		jiantouright.style.display = 'block';
