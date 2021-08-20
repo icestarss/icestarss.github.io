@@ -24,7 +24,7 @@
 		margin-left: 150px;
 		height: 80px;
 		width: 100px;
-		background-image: url(../img/image/jiantou.PNG);
+		background-image: url(../img/image/jiantou.png);
 		animation: move 1.8s infinite forwards;
 	}
 	.fl{
@@ -250,7 +250,7 @@
 		display: inline-block;
 		height: 42px;
 		width: 36px;
-		background: url(../img/image/ico_service.PNG) no-repeat;
+		background: url(../img/image/ico_service.png) no-repeat;
 		margin: 10px;
 		font-size: 0;
 		
